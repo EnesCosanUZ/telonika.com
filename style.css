@@ -5,6 +5,10 @@
 body {
     background-color: #191919;
 }
+.line {
+    width: 100%;
+    border-bottom: 0.1px solid #fff ;
+}
 .navigation {
     margin: 0.5rem;
 }
@@ -20,6 +24,7 @@ body {
 }
 #main {
     padding-top: 16rem;
+    height: 100vh;
 }
 .add {
     background-color: #fb7c05;
