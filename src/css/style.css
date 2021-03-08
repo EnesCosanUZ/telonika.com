@@ -1,0 +1,123 @@
+body {
+    background-color: #151515;
+    color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+a  {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.brand {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    padding: 20px 0;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.left-bar, .right-bar .user-drop {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    margin-top: 9px;
+}
+
+.list-item {
+    display:inline-flex;
+    margin: 0 10px;
+}
+
+.userImg {
+    width: 40px;
+    height: 40px;
+}
+
+.userArrow {
+    color: #fff;
+    width: 10px;
+}
+
+.sectionOne {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.oneImg {
+    height: 280px;
+    border-radius: 280px;
+}
+
+.oneh {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.oneText {
+    font-size: 16px;
+}
+
+.oneLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.oneLinks a:nth-child(1) {
+    margin-right: 10px;
+    width: 240px;
+    height: 40px;
+    background-color: #ff5a00;
+    color: #fff;
+    font-size: 21px;
+    padding-top: 16px;
+}
+
+.oneLinks a:nth-child(2) {
+    width: 240px;
+    height: 40px;
+    background-color: #000;
+    color: #ff5a00;
+    font-size: 21px;
+    padding-top: 16px;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.twoLeft, .twoRight {
+    width: 45%;
+    padding: 50px;
+}
+
+.twoRight img {
+    width: 100%;
+}

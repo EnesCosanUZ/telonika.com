@@ -2,89 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Telonika.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
+    <title>Anasayfa - Telonika.com</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="image/svg" href="./src/img/logo.png" />
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-dark navigation">
-        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="" class="navbar-brand mx-auto">Telonika</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto pl-4">
-                <li class="nav-item"><a href="" class="nav-link">Moderation</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Leveling</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Music</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Premium</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Tutorials</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Support Server</a></li>
-            </ul>
+    <!-- Header Begin -->
+    <header>
+        <div class="left-bar">
+            <a href="./index.html" class="brand">Telonika</a>
+
+            <div class="navbar" id="collapse">
+                <ul class="list">
+                    <li class="list-item"><a href="" class="list-link">Home</a></li>
+                    <li class="list-item"><a href="" class="list-link">Moderation</a></li>
+                    <li class="list-item"><a href="" class="list-link">Premium</a></li>
+                    <li class="list-item"><a href="" class="list-link">Tutorial</a></li>
+                    <li class="list-item"><a href="" class="list-link">Support Server</a></li>
+                </ul>
+            </div>
         </div>
-        <button class="ml-auto navbar-button">Login</button>
-    </nav>
-    
-    <div id="main">
-        <div class="container justify-content-center">
-            <div class="row">
-                <h1 class=" mx-auto text-white pb-4">Build the best Discord Server!</h1>
-                <h5 class="mx-auto text-white pb-4">Configure moderation, leveling, Twitch alerts, and much more with the most easy-to-use dashboard!</h5>
-                <div class="mx-auto">
-                    <button class="add"><i class="fab fa-discord"> Add the Discord</i></button>
-                    <button class="features">See features</button>
-                </div>
+
+        <div class="right-bar">
+            <div class="user-drop">
+                <img src="./src/img/user.png" alt="" class="userImg">
+                <p class="userText">User</p>
+                <img src="./src/img/downArrow.svg" alt="" class="userArrow">
+            </div>
+        </div>
+
+
+    </header>
+    <!-- Header End -->
+
+    <!-- Section One Begin -->
+    <div class="content">
+        <div class="sectionOne">
+            <img src="./src/img/logo.png" alt="" class="oneImg">
+            <p class="oneh">Build the best Discord Server!</p>
+            <p class="oneText">Configure moderation, Youtube alerts, Twitch alerts and much more with most easy-to-use dashboard!</p>
+            <div class="oneLinks">
+                <a href=""><img src="./src/img/discord.svg" alt="" style="width: 20px;"> Add the server</a>
+                <a href="">See features</a>
             </div>
         </div>
     </div>
+    <!-- Section One End -->
 
-    <footer>
-        <div class="container-fluid text-white bg-dark">
-            <div class="row pt-5 pb-5">
-                <div class="col-md-6 pl-5">
-                    <h4>Telonika</h4>
-                    <p class="muted">Telif Hakkı &copy; 2020-2021 <a href="https://github.com/enescosanuz/">EnesCosanUZ</a>.</p>
-                </div>
-                <div class="col-md-2">
-                    <ul class="navbar-nav">
-                        <li><a href="">Ana Sayfa</a></li>
-                        <li><a href="">Moderatör</a></li>
-                        <li><a href="">Seviye Sistemi</a></li>
-                        <li><a href="">Müzik</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="navbar-nav">
-                        <li><a href="">Premium</a></li>
-                        <li><a href="">Yardım Masası</a></li>
-                        <li><a href="">Destek Sunucusu</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="navbar-nav">
-                        <li><a href="">Gizlilik Politikası</a></li>
-                        <li><a href="">İletişim</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="row pt-5 pb-5">
-                <div class="col-md-9 pl-5">
-                    <p>EN IYI DISCORD SUNUCUSUNU OLUŞTURMAYA HAZIR MISIN?</p>
-                    <p>Telonika, sunucunuzu büyütmek için en iyi Discord botudur</p>
-                </div>
-                <div class="col-md-2">
-                    <button class="add"><i class="fab fa-discord"> Add the Discord</i></button>
-                </div>
-            </div>
+    <!-- Section Two Begin -->
+    <div class="sectionTwo">
+        <div class="twoLeft">
+            <h1 class="twoBrand">Welcoming Message and Auto Role</h1>
+            <p class="twoText">Take advantage of the welcome message to inform newcomers about your server rules, topic or ongoing events.</p>
+            <p class="twoText">You can also give them roles right after they join or just simply give them a warm welcome!</p>
         </div>
-    </footer>
+        <div class="twoRight">
+            <img src="./src/img/twoImg.png" alt="">
+        </div>
+    </div>  
+    <!-- Section Two End -->
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Footer Begin -->
+
+    <!-- Footer End -->
+
 </body>
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/js/main.js"></script>
 </html>
